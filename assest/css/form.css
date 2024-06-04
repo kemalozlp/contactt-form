@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: #E0F1E8;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+form {
+  margin: 128px auto;
+  width: 736px;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 40px;
+  gap: 40px;
+
+}
+
+.Bize-Ulasin h1 {
+  width: 656px;
+  font-family: Karla;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -1px;
+  text-align: left;
+  color: #2A4144;
+  margin-bottom: 32px;
+}
+
+.fields {
+  width: 610px;
+  display: flex;
+  gap: 16px;
+
+}
+
+.fi {
+  width: 297px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.fiel {
+  width: 297px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.fi input {
+  padding: 12px 24px;
+  border-radius: 8px;
+}
+
+.fiel input {
+  padding: 12px 24px;
+  border-radius: 8px;
+
+}
