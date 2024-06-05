@@ -31,7 +31,7 @@ textarea,
 select {
   font: inherit;
   outline: none;
-  border: none; 
+  border: none;
 }
 
 p,
@@ -59,7 +59,7 @@ form {
 
 }
 
-.Bize-Ulasin h1 {
+ h1 {
   width: 656px;
   font-family: Karla;
   font-size: 32px;
@@ -72,7 +72,7 @@ form {
 }
 
 .fields {
-  width: 610px;
+  width: 656px;
   display: flex;
   gap: 16px;
 
@@ -82,6 +82,8 @@ form {
   border: 1px solid #86A2A5;
   padding: 12px 24px;
   border-radius: 8px;
+
+
 }
 
 .fields p {
@@ -89,14 +91,14 @@ form {
 }
 
 .fi {
-  width: 297px;
+  width: 320px;
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
 .fiel {
-  width: 297px;
+  width: 320px;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -106,3 +108,106 @@ form {
 span {
   color: #0C7D69;
 }
+
+.border {
+  width: 656px;
+  border: 1px solid #86A2A5;
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+
+p {
+  margin-bottom: 8px;
+  color: #2A4144;
+}
+
+.sorgu {
+  width: 656px;
+  display: flex;
+  gap: 16px;
+
+}
+
+.sorgu p {
+  width: 320px;
+  border: 1px solid #86A2A5;
+  padding: 12px 24px;
+  border-radius: 8px;
+}
+
+textarea {
+  width: 656px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: 1px solid #86A2A5;
+}
+
+.check {
+  margin-block: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+}
+
+.check p {
+  margin-bottom: 0px;
+}
+
+span {
+  margin-left: 8px;
+}
+
+button {
+  width: 656px;
+  background-color: #0C7D69;
+  border-radius: 8px;
+  padding-block: 16px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+@media (width <=375px) {
+  form {
+    width: 343px;
+    padding: 24px;
+  }
+  form h1 {
+    width: 295px;
+  }
+  .fields {
+    width: 295px;
+    display: flex;
+    flex-direction: column;
+  }
+  .fields input {
+    width: 295px;
+  }
+  .border {
+    width: 295px;
+  }
+  .sorgu {
+    width: 295px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sorgu p {
+    width: 295px;
+  }
+  textarea {
+    width: 295px;
+  }
+  .check  {
+    width: 295px;
+  }
+  .check p {
+    width: 232px;
+  }
+  button {
+    width: 295px;
+  }
+
+}
+
