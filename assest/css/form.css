@@ -31,6 +31,7 @@ textarea,
 select {
   font: inherit;
   outline: none;
+  border: none; 
 }
 
 p,
@@ -77,6 +78,16 @@ form {
 
 }
 
+.fields input {
+  border: 1px solid #86A2A5;
+  padding: 12px 24px;
+  border-radius: 8px;
+}
+
+.fields p {
+  color: #2A4144;
+}
+
 .fi {
   width: 297px;
   display: flex;
@@ -89,15 +100,9 @@ form {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  margin-bottom: 24px;
 }
 
-.fi input {
-  padding: 12px 24px;
-  border-radius: 8px;
-}
-
-.fiel input {
-  padding: 12px 24px;
-  border-radius: 8px;
-
+span {
+  color: #0C7D69;
 }
